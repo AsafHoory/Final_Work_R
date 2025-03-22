@@ -1,7 +1,7 @@
 # Final Work
 # Name of submitter: Asaf Hoory
 # ID: 211677174
-# Date of submission: 
+
 
 rm(list = ls())  # Clear workspace
 
