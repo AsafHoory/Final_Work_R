@@ -12,7 +12,7 @@
 
 This project is based on an experiment I conducted in Professor Liad Modrik's lab, supervised by PhD student Maor Shreiber.
 
-The goal of the experiment was to examine whether **working memory (WM)** can operate **without conscious awareness** of a stimulus. Participants were briefly shown a **Gabor patch** (a visual stimulus), followed by a mask, and then asked to judge the direction of a second Gabor patch relative to the first.
+The goal of the experiment was to examine whether **working memory (WM)** can operate **without conscious awareness** of a stimulus. Participants were briefly shown a **Gabor stimulus** (a visual stimulus), followed by a mask, and then asked to judge the direction of a second Gabor patch relative to the first.
 
 We measured:
 - **Perceptual Awareness** using the **PAS (Perceptual Awareness Scale)** — rated 1 to 4
