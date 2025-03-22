@@ -54,8 +54,7 @@ df <- df |>
   mutate(PASkey.keys = as.numeric(PASkey.keys)) |>#PAS temporarily defined as numeric because I wanted to calculate mean and SE in the descriptive part, in the regression it will be change to factor
   mutate(contrast = as.numeric(contrast))  
 
-# Save processed data
-save(df, file = "C:/Users/LENOVO/Desktop/R/Final_Work/df.rdata")
+
 
 # No need to remove duplicate rows because in this dataset, 
 # identical rows are a natural part of the data structure.
