@@ -1,6 +1,3 @@
-# Load the data set
-load("C:/Users/LENOVO/Desktop/R/Final_Work/df.rdata")
-
 # Compute descriptive statistics (Mean & SE)
 summary_stats <- df |> 
   summarise(
@@ -120,5 +117,4 @@ ggplot(PAS_by_contrast, aes(x = contrast_factor, y = mean_PAS, group = 1)) +
   ) +
   theme_minimal()
 
-save(df, file = "C:/Users/LENOVO/Desktop/R/Final_Work/df.rdata")
 

@@ -1,7 +1,3 @@
-# Load the dataset
-load("C:/Users/LENOVO/Desktop/R/Final_Work/df.rdata")
-
-
 #### REGRESSION ----
 #for the regression I subtracted from every PAS 1 so 0 represent the reference level
 df$PASkey.keys <- df$PASkey.keys - 1

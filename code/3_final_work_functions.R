@@ -1,5 +1,3 @@
-load("C:/Users/LENOVO/Desktop/R/Final_Work/df.rdata")
-
 # Function to calculate the mean PAS, success rate, and contrast for each participant
 calculate_participant_means <- function(df) {
   # Check if the dataframe contains the required columns
@@ -61,5 +59,4 @@ print(head(se_results, 3))
 #2:           2      0.031       0.003
 #3:           3      0.026       0.002
 
-save(df, file = "C:/Users/LENOVO/Desktop/R/Final_Work/df.rdata")
 
