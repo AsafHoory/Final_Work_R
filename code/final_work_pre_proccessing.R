@@ -12,6 +12,8 @@ library(tidyverse)
 library(ggplot2)
 library(data.table)
 library(pROC)
+library(knitr)
+library(scales)
 #### EXPLORATORY DATA ----
 
 # This part of the code preprocesses the data and extracts only the relevant variables.
